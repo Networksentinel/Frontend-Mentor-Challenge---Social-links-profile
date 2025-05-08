@@ -18,19 +18,7 @@ main {
     min-height: 100vh;
 }
 
-h1 {
-    @include font($text-large, $text-weight-bold);
-}
-h2 {
-    @include font($text-small, $text-weight-bold);
-    color: $green;
-}
-h3 {
-    @include font($text-small, $text-weight-regular);
-}
 a {
-    @include font($text-small, $text-weight-bold);
-
     text-decoration: none;
     color: inherit;
 }

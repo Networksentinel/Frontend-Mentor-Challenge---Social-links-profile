@@ -20,3 +20,26 @@
     height: 88px;
     border-radius: 100%;
 }
+ .card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: $space-50;
+ }
+
+ .card__info-name {
+    @include font($text-large, $text-weight-bold);
+}
+
+ .card__info-place {
+    @include font($text-small, $text-weight-bold);
+    color: $green;
+}
+
+ .card__occupation {
+    @include font($text-small, $text-weight-regular);
+}
+
+.card__nav-link {
+    @include font($text-small, $text-weight-bold);
+}
