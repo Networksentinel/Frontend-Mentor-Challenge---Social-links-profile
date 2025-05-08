@@ -9,9 +9,11 @@
     & a {
         display: inline-block;
         color: $green;
+        text-decoration: underline;
         transition: all 0.3s ease;
         &:hover,
         &:focus {
+            text-decoration: none;
             color: $white;
             transform: translateY(-3px);
         }
