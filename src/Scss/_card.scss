@@ -1,6 +1,8 @@
 @use './design' as *;
 
 .card {
+    width: clamp(327px, 19.72vw, 384px);
+
     background-color: $grey-800;
 
     display: flex;
@@ -56,7 +58,7 @@
     align-items: center;
     justify-content: center;
 
-    width: clamp(273px, 304px ,304px);
+    width: clamp(279px, 21.11vw ,304px);
     height: 45px;
 
     border-radius: $space-100;
