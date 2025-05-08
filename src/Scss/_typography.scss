@@ -1,3 +1,4 @@
+//Font import
 @font-face {
     font-family: 'Inter';
     src: url('../Fonts/Inter/Inter-Regular.ttf') format('truetype');
@@ -14,4 +15,21 @@
     font-family: 'Inter';
     src: url('../Fonts/Inter/Inter-Bold.ttf') format('truetype');
     font-weight: 700;  // Bold
+}
+
+//Font-sizes
+$text-large: 24px;
+$text-small: 14px;
+
+//Font-weights
+$text-weight-regular: 400;
+$text-weight-semibold: 600;
+$text-weight-bold: 700;
+
+//Mixins
+@mixin font($font-size, $font-weight, $line-height: 150%, $letters-spacing: 0) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+    letter-spacing: $letters-spacing;
 }
