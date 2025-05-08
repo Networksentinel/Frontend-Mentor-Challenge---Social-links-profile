@@ -1,9 +1,10 @@
 
 html {
-    font-size: clamp(12px, 1.56vw, 20px); /* 16px at 1024px wide */
+    font-size: 100%
 }
 body {
-    font-size: 1rem;
+    @include font($text-small, $text-weight-bold);
+    font-family: 'Inter', sans-serif;
 }
 h1 {
     font-size: clamp(2rem, 3.9vw, 3.5rem); /* 40px/2.5rem at 1024px wide */
