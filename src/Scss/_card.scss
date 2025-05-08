@@ -40,6 +40,24 @@
     @include font($text-small, $text-weight-regular);
 }
 
+.card__nav {
+    & ul {
+        display: flex;
+        flex-direction: column; 
+        gap: $space-200;
+    }
+}
+
 .card__nav-link {
     @include font($text-small, $text-weight-bold);
+    background-color: $grey-700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: clamp(273px, 304px ,304px);
+    height: 45px;
+
+    border-radius: $space-100;
 }
