@@ -40,6 +40,7 @@
 
  .card__occupation {
     @include font($text-small, $text-weight-regular);
+    width: 304px;
 }
 
 .card__nav {
