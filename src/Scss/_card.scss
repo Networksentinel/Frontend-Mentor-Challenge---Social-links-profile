@@ -1,0 +1,16 @@
+@use './design' as *;
+
+.card {
+    background-color: $grey-800;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: $space-300;
+    padding: $space-500;
+    border-radius: $space-150;
+}

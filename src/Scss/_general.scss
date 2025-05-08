@@ -5,25 +5,31 @@ html {
 }
 body {
     font-size: 1rem;
+    font-family: 'Inter', sans-serif;
     background-color: $grey-900;
     color: $white;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 h1 {
     @include font($text-large, $text-weight-bold);
-    font-family: 'Inter', sans-serif;
 }
 h2 {
     @include font($text-small, $text-weight-bold);
-    font-family: 'Inter', sans-serif;
     color: $green;
 }
 h3 {
     @include font($text-small, $text-weight-regular);
-    font-family: 'Inter', sans-serif;
 }
 a {
     @include font($text-small, $text-weight-bold);
-    font-family: 'Inter', sans-serif;
 
     text-decoration: none;
     color: inherit;
