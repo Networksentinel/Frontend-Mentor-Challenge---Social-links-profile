@@ -2,19 +2,19 @@
 @font-face {
     font-family: 'Inter';
     src: url('../Fonts/Inter/Inter-Regular.ttf') format('truetype');
-    font-weight: 400;  // Regular
+    font-weight: 300;  // Regular
 }
 
 @font-face {
     font-family: 'Inter';
     src: url('../Fonts/Inter/Inter-SemiBold.ttf') format('truetype');
-    font-weight: 500;  // SemiBold
+    font-weight: 400;  // SemiBold
 }
   
 @font-face {
     font-family: 'Inter';
     src: url('../Fonts/Inter/Inter-Bold.ttf') format('truetype');
-    font-weight: 600;  // Bold
+    font-weight: 500;  // Bold
 }
 
 //Font-sizes
@@ -22,9 +22,9 @@ $text-large: 24px;
 $text-small: 14px;
 
 //Font-weights
-$text-weight-regular: 400;
-$text-weight-semibold: 500;
-$text-weight-bold: 600;
+$text-weight-regular: 300;
+$text-weight-semibold: 400;
+$text-weight-bold: 500;
 
 //Mixins
 @mixin font($font-size, $font-weight, $line-height: 150%, $letters-spacing: 0) {

@@ -62,4 +62,11 @@
     height: 45px;
 
     border-radius: $space-100;
+
+    transition: all 0.5s ease-in-out;
+    &:hover,
+    &:focus {
+        color: $grey-700;
+        background-color: $green;
+    }
 }
