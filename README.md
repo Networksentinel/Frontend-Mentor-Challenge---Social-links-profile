@@ -36,7 +36,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 This was my first time actually using Sass/SCSS in a project, so basically everything was new to me — the symbols, the syntax, how mixins work, all of it.
 I made a simple little mixin for handling fonts:
 
-**(NOTE: I know the ```scss font``` shorthand property would be slightly more efficient, but I wanted to create my own version of it, just to exercise mixin creation/use.)**
+**(NOTE: I know the `font` shorthand property would be slightly more efficient, but I wanted to create my own version of it, just to exercise mixin creation/use.)**
 
 ```scss
 @mixin font($font-size, $font-weight, $line-height: 150%, $letters-spacing: 0) {
